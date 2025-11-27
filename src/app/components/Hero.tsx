@@ -23,7 +23,7 @@ export default function Hero() {
                     <div className={styles.imagePlaceholder}>
                         {/* Placeholder for Emnet's photo */}
                         <Image
-                            src="/emnet_placeholder.png"
+                            src="/emnet_photo.jpg"
                             alt="Emnet Assefa, RDN"
                             width={500}
                             height={500}
