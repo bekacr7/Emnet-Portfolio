@@ -66,7 +66,8 @@ export default function Contact() {
 
                         <div className={styles.callToAction}>
                             <p className={styles.ctaText}>Call for a free consultation now</p>
-                            <a href="tel:9514064292" className={styles.phoneLink}>(951) 406-4292</a>
+                            <a href="tel:9519543262" className={styles.phoneLink}>(951) 954-3262</a>
+                            <a href="mailto:Emnet.RD@gmail.com" className={styles.phoneLink}>Emnet.RD@gmail.com</a>
                         </div>
                     </div>
 
