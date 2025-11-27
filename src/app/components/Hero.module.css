@@ -1,9 +1,33 @@
 .hero {
     background-color: #F0F4F4;
     /* Very light sage/grey */
-    padding: 6rem 0;
+    padding: 8rem 0 10rem 0;
+    /* Increased bottom padding for wave */
     display: flex;
     align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.wave {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.wave svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 100px;
+}
+
+.shapeFill {
+    fill: #FFFFFF;
 }
 
 .container {
