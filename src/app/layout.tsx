@@ -17,6 +17,12 @@ const openSans = Open_Sans({
 export const metadata: Metadata = {
   title: "Emnet Assefa, RDN | Autism Nutritionist",
   description: "Registered Dietitian Nutritionist specializing in Autism Nutrition. Helping families address picky eating, GI issues, and more.",
+  icons: {
+    icon: "/emnet_photo.jpg",
+  },
+  openGraph: {
+    images: "/emnet_photo.jpg",
+  },
 };
 
 export default function RootLayout({
