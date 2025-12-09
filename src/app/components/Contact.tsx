@@ -56,12 +56,12 @@ export default function Contact() {
                         <div className={styles.infoBlock}>
                             <h3>Location</h3>
                             <p>Fontana, CA 92336</p>
-                            <p>San Bernardino County</p>
+                            <p>Inland Empire</p>
                         </div>
 
                         <div className={styles.infoBlock}>
-                            <h3>Virtual Sessions</h3>
-                            <p>I offer virtual sessions. I specialize in nutrition and environmental counseling for families with ASD.</p>
+                            <h3>Virtual Sessions (children)</h3>
+                            <p>I offer virtual sessions. I specialize in nutrition and environmental counseling for families of children with autism.</p>
                         </div>
 
                         <div className={styles.callToAction}>
