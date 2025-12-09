@@ -77,7 +77,7 @@ export default function Contact() {
                             <div className={styles.successMessage}>
                                 <CheckCircle size={48} className={styles.iconSuccess} />
                                 <h3>Message Sent!</h3>
-                                <p>Thank you for reaching out. I'll get back to you as soon as possible.</p>
+                                <p>Thank you for reaching out. I&apos;ll get back to you as soon as possible.</p>
                                 <button
                                     onClick={() => setStatus("idle")}
                                     className={styles.resetButton}
