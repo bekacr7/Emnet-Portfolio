@@ -60,7 +60,7 @@ export default function Contact() {
                         </div>
 
                         <div className={styles.infoBlock}>
-                            <h3>Virtual Sessions (children)</h3>
+                            <h3>Virtual Sessions</h3>
                             <p>I offer virtual sessions. I specialize in nutrition and environmental counseling for families of children with autism.</p>
                         </div>
 
